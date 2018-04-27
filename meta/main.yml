@@ -1,19 +1,24 @@
+---
 dependencies: []
 
 galaxy_info:
   author: Thomas Woerner, Victor da Costa
-  description: A role with IPA modules
+  description: Role with IPA modules
   company: Red Hat, Inc
   license: GPLv3
-  min_ansible_version: 2.0
+  min_ansible_version: 2.4
   platforms:
     - name: Fedora
       versions:
         - 25
-    - name: rhel
+        - 26
+        - 27
+    - name: EL
       versions:
         - 7
-
+        - 7.3
+        - 7.4
+        - 7.5
   galaxy_tags:
     - identity
     - ipa
